@@ -2,7 +2,7 @@
 version: '2'
 services:
     sflowtrend:
-        image: sflowtrend
+        image: jcpowermac/sflowtrend
         ports:
             - 0.0.0.0:8087:8087
             - 0.0.0.0:8443:8443
